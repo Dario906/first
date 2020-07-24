@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <title>User form</title>
   <link rel="shortcut icon" href="tile.png" type="image/x-icon">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -26,22 +27,24 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <header style="text-align: center;">
-    <h1>Dario Atanasovski's Portfolio</h1>
-    <img src="img/avatar.jpg" alt="Avatar" title="Avatar" width="250" />
+  <header>
+    <h1>Second page</h1>
+    <a href="index.html">Go to first page</a>
   </header>
-
   <main>
-    <a href="second.html">Go to second page</a>
-    <h2>My social network</h2>
-    <ul>
-      <li>Facebook <a href="https://www.facebook.com/dario.atanasovski.9">Click here</a></li>
-      <li>Instagram <a href="https://www.instagram.com/atanasovski53/">Click here</a></li>
-    </ul>
-  </main>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="firstname"/><br>
 
-  <footer style="text-align: center;">
-    <span>Dario Atanasovski 2020-2021</span>
+        <label for="surname">Surname:</label><br>
+        <input type="text" id="surname" name="surname"/><br>
+
+        <label for="date/month/year of birth">Date/month/year of birth:</label><br>
+        <input type="text" id="date/month/year of birth" name="date/month/year of birth"/><br>
+    </form>
+  </main>
+  <footer>
+
   </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>

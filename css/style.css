@@ -5,3 +5,15 @@ header {
     font-weight: bold;
     font-style: italic;
   }
+
+  .first {
+      color: yellow;
+  }
+
+   #firstid {
+       color: green;
+   }
+
+   .second {
+       color: blue;
+   }

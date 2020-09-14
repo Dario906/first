@@ -1,0 +1,80 @@
+body {
+    background-image: url('../img/tennis.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    border: solid 2px black;
+    background-color: lightblue;
+}
+header h1{
+    text-align: center;
+}
+ul.up li {
+    display: inline-block;
+}
+ul.up li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+} 
+.newdiv{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 5px;
+    justify-content: space-around;
+}
+.first{
+    height: 2000px;
+    width: 400px;
+    border: solid 2px black;
+    background-color: lightgreen;
+    text-align: center;
+    opacity: 90%;
+}
+.second{
+    height: 2000px;
+    width: 400px;
+    border: solid 2px black;
+    background-color: lightgreen;
+    text-align: center;
+    opacity: 90%;
+}
+.thirth{
+    height: 2000px;
+    width: 400px;
+    border: solid 2px black;
+    background-color: lightgreen;
+    text-align: center;
+    opacity: 90%;
+}
+footer{
+    border: solid 2px black;
+    background-color: lightsalmon;
+    opacity: 90%;
+    text-align: center;
+}
+ul.sn{
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    margin: 0 auto;
+    overflow: auto;
+    display: inline-block;
+}
+ul.sn li{
+    list-style: none;
+    text-align: left;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+ul.sn li img{
+    width: 20px;
+    position: relative;
+    left: 30px;
+    top: 0;
+    display: inline-block;
+}

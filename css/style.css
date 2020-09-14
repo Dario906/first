@@ -68,7 +68,9 @@ header {
     font-size: 18px;
     text-align: left;
   }
-  
+  .naslov {
+    text-decoration-color: darkgreen;
+  }
   footer {
     text-align: center;
     font-size: 14px;

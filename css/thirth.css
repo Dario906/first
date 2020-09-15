@@ -26,7 +26,7 @@ ul.up li a{
     justify-content: space-around;
 }
 .first{
-    height: 2000px;
+    height: 3700px;
     width: 400px;
     border: solid 2px black;
     background-color: lightgreen;
@@ -34,7 +34,7 @@ ul.up li a{
     opacity: 90%;
 }
 .second{
-    height: 2000px;
+    height: 3700px;
     width: 400px;
     border: solid 2px black;
     background-color: lightgreen;
@@ -42,7 +42,7 @@ ul.up li a{
     opacity: 90%;
 }
 .thirth{
-    height: 2000px;
+    height: 3700px;
     width: 400px;
     border: solid 2px black;
     background-color: lightgreen;

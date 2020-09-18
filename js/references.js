@@ -3,14 +3,14 @@ k: name v: your name
 k: age v: your age
 k: address v: your address (as Object) --> k: street v: your street name k: number v: your street number k: city v: your city
 */
-let myInfo = { name: "Viktor", age: 37, addres: { street: "taa i taa" } };
+//et myInfo = { name: "Viktor", age: 37, addres: { street: "taa i taa" } };
 
 /* Write few arrays that consists of these elements:
 1. list of numbers from 1 to 10
 2. list of names
 3. mixed content
 */
-let numbers = [1, 2, 3, ...10];
+//let numbers = [1, 2, 3, ...10];
 
 /* Assign the created object and array to new variables. 
 Then try to change some values inside this newly created complex data structures with this sintax:
@@ -23,14 +23,14 @@ Then try to change some values inside this newly created complex data structures
 
 */
 
-let newObject = new Object();
-let newArray = new Array();
+//let newObject = new Object();
+//let newArray = new Array();
 
-newObject = myInfo;
-newArray = names;
+//newObject = myInfo;
+//newArray = names;
 
-newObject.name = "Dojchin";
-newArray[0] = "Dojchin";
+//newObject.name = "Dojchin";
+//newArray[0] = "Dojchin";
 
 /* Expected results */
 //console.log(OriginalObject) --> ?
@@ -48,3 +48,25 @@ obj = { second: 'ref2' }
 
 console.log(obj2) --> ?
 */
+
+//let object = newObject();
+object = {
+    Name: "Pero",
+    Age: "16",
+    Address: { Street: "Marshal Tito", StreetNumber: "2" },
+}
+console.log("User Address:");
+console.log("Street: " + object.Address.Street);
+console.log("Street Number: " + object.Address.StreetNumber );
+
+let a = ["one", "two", "three"];
+
+function oneTwoThree() {
+    //let a = ["1", "2", "3",]
+    return function () {
+        return a;
+    }; 
+} 
+
+let countThis = oneTwoThree();
+console.log(countThis);    

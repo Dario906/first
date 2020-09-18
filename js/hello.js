@@ -1,6 +1,6 @@
 /*Variable declaration statement */
-let hello;
-hello = "Hello World 2020";
+let hello, goodbye;
+hello = "Hello";
 let world = "World"
  
 let result;
